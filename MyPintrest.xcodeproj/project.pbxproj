@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB3C071720F14CAE008DC735 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3C071620F14CAE008DC735 /* AppDelegate.swift */; };
+		DB3C071920F14CAE008DC735 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3C071820F14CAE008DC735 /* ViewController.swift */; };
+		DB3C071C20F14CAE008DC735 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB3C071A20F14CAE008DC735 /* Main.storyboard */; };
+		DB3C071E20F14CB1008DC735 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB3C071D20F14CB1008DC735 /* Assets.xcassets */; };
+		DB3C072120F14CB1008DC735 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB3C071F20F14CB1008DC735 /* LaunchScreen.storyboard */; };
+		DB3C072C20F14CB2008DC735 /* MyPintrestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3C072B20F14CB2008DC735 /* MyPintrestTests.swift */; };
+		DB3C073720F14CB2008DC735 /* MyPintrestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3C073620F14CB2008DC735 /* MyPintrestUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DB3C072820F14CB1008DC735 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB3C070B20F14CAE008DC735 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB3C071220F14CAE008DC735;
+			remoteInfo = MyPintrest;
+		};
+		DB3C073320F14CB2008DC735 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB3C070B20F14CAE008DC735 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB3C071220F14CAE008DC735;
+			remoteInfo = MyPintrest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DB3C071320F14CAE008DC735 /* MyPintrest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyPintrest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB3C071620F14CAE008DC735 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DB3C071820F14CAE008DC735 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DB3C071B20F14CAE008DC735 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DB3C071D20F14CB1008DC735 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB3C072020F14CB1008DC735 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DB3C072220F14CB1008DC735 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB3C072720F14CB1008DC735 /* MyPintrestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyPintrestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB3C072B20F14CB2008DC735 /* MyPintrestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPintrestTests.swift; sourceTree = "<group>"; };
+		DB3C072D20F14CB2008DC735 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB3C073220F14CB2008DC735 /* MyPintrestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyPintrestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB3C073620F14CB2008DC735 /* MyPintrestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPintrestUITests.swift; sourceTree = "<group>"; };
+		DB3C073820F14CB2008DC735 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB3C071020F14CAE008DC735 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB3C072420F14CB1008DC735 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB3C072F20F14CB2008DC735 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB3C070A20F14CAE008DC735 = {
+			isa = PBXGroup;
+			children = (
+				DB3C071520F14CAE008DC735 /* MyPintrest */,
+				DB3C072A20F14CB2008DC735 /* MyPintrestTests */,
+				DB3C073520F14CB2008DC735 /* MyPintrestUITests */,
+				DB3C071420F14CAE008DC735 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB3C071420F14CAE008DC735 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB3C071320F14CAE008DC735 /* MyPintrest.app */,
+				DB3C072720F14CB1008DC735 /* MyPintrestTests.xctest */,
+				DB3C073220F14CB2008DC735 /* MyPintrestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB3C071520F14CAE008DC735 /* MyPintrest */ = {
+			isa = PBXGroup;
+			children = (
+				DB3C071620F14CAE008DC735 /* AppDelegate.swift */,
+				DB3C071820F14CAE008DC735 /* ViewController.swift */,
+				DB3C071A20F14CAE008DC735 /* Main.storyboard */,
+				DB3C071D20F14CB1008DC735 /* Assets.xcassets */,
+				DB3C071F20F14CB1008DC735 /* LaunchScreen.storyboard */,
+				DB3C072220F14CB1008DC735 /* Info.plist */,
+			);
+			path = MyPintrest;
+			sourceTree = "<group>";
+		};
+		DB3C072A20F14CB2008DC735 /* MyPintrestTests */ = {
+			isa = PBXGroup;
+			children = (
+				DB3C072B20F14CB2008DC735 /* MyPintrestTests.swift */,
+				DB3C072D20F14CB2008DC735 /* Info.plist */,
+			);
+			path = MyPintrestTests;
+			sourceTree = "<group>";
+		};
+		DB3C073520F14CB2008DC735 /* MyPintrestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DB3C073620F14CB2008DC735 /* MyPintrestUITests.swift */,
+				DB3C073820F14CB2008DC735 /* Info.plist */,
+			);
+			path = MyPintrestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB3C071220F14CAE008DC735 /* MyPintrest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB3C073B20F14CB2008DC735 /* Build configuration list for PBXNativeTarget "MyPintrest" */;
+			buildPhases = (
+				DB3C070F20F14CAE008DC735 /* Sources */,
+				DB3C071020F14CAE008DC735 /* Frameworks */,
+				DB3C071120F14CAE008DC735 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyPintrest;
+			productName = MyPintrest;
+			productReference = DB3C071320F14CAE008DC735 /* MyPintrest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DB3C072620F14CB1008DC735 /* MyPintrestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB3C073E20F14CB2008DC735 /* Build configuration list for PBXNativeTarget "MyPintrestTests" */;
+			buildPhases = (
+				DB3C072320F14CB1008DC735 /* Sources */,
+				DB3C072420F14CB1008DC735 /* Frameworks */,
+				DB3C072520F14CB1008DC735 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB3C072920F14CB1008DC735 /* PBXTargetDependency */,
+			);
+			name = MyPintrestTests;
+			productName = MyPintrestTests;
+			productReference = DB3C072720F14CB1008DC735 /* MyPintrestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DB3C073120F14CB2008DC735 /* MyPintrestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB3C074120F14CB2008DC735 /* Build configuration list for PBXNativeTarget "MyPintrestUITests" */;
+			buildPhases = (
+				DB3C072E20F14CB2008DC735 /* Sources */,
+				DB3C072F20F14CB2008DC735 /* Frameworks */,
+				DB3C073020F14CB2008DC735 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB3C073420F14CB2008DC735 /* PBXTargetDependency */,
+			);
+			name = MyPintrestUITests;
+			productName = MyPintrestUITests;
+			productReference = DB3C073220F14CB2008DC735 /* MyPintrestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB3C070B20F14CAE008DC735 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = Rish;
+				TargetAttributes = {
+					DB3C071220F14CAE008DC735 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					DB3C072620F14CB1008DC735 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = DB3C071220F14CAE008DC735;
+					};
+					DB3C073120F14CB2008DC735 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = DB3C071220F14CAE008DC735;
+					};
+				};
+			};
+			buildConfigurationList = DB3C070E20F14CAE008DC735 /* Build configuration list for PBXProject "MyPintrest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB3C070A20F14CAE008DC735;
+			productRefGroup = DB3C071420F14CAE008DC735 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB3C071220F14CAE008DC735 /* MyPintrest */,
+				DB3C072620F14CB1008DC735 /* MyPintrestTests */,
+				DB3C073120F14CB2008DC735 /* MyPintrestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB3C071120F14CAE008DC735 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB3C072120F14CB1008DC735 /* LaunchScreen.storyboard in Resources */,
+				DB3C071E20F14CB1008DC735 /* Assets.xcassets in Resources */,
+				DB3C071C20F14CAE008DC735 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB3C072520F14CB1008DC735 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB3C073020F14CB2008DC735 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB3C070F20F14CAE008DC735 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB3C071920F14CAE008DC735 /* ViewController.swift in Sources */,
+				DB3C071720F14CAE008DC735 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB3C072320F14CB1008DC735 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB3C072C20F14CB2008DC735 /* MyPintrestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB3C072E20F14CB2008DC735 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB3C073720F14CB2008DC735 /* MyPintrestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DB3C072920F14CB1008DC735 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB3C071220F14CAE008DC735 /* MyPintrest */;
+			targetProxy = DB3C072820F14CB1008DC735 /* PBXContainerItemProxy */;
+		};
+		DB3C073420F14CB2008DC735 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB3C071220F14CAE008DC735 /* MyPintrest */;
+			targetProxy = DB3C073320F14CB2008DC735 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DB3C071A20F14CAE008DC735 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB3C071B20F14CAE008DC735 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DB3C071F20F14CB1008DC735 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB3C072020F14CB1008DC735 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB3C073920F14CB2008DC735 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DB3C073A20F14CB2008DC735 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB3C073C20F14CB2008DC735 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6J7Z474QUR;
+				INFOPLIST_FILE = MyPintrest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rishstudio.MyPintrest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DB3C073D20F14CB2008DC735 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6J7Z474QUR;
+				INFOPLIST_FILE = MyPintrest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rishstudio.MyPintrest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DB3C073F20F14CB2008DC735 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6J7Z474QUR;
+				INFOPLIST_FILE = MyPintrestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rishstudio.MyPintrestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyPintrest.app/MyPintrest";
+			};
+			name = Debug;
+		};
+		DB3C074020F14CB2008DC735 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6J7Z474QUR;
+				INFOPLIST_FILE = MyPintrestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rishstudio.MyPintrestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyPintrest.app/MyPintrest";
+			};
+			name = Release;
+		};
+		DB3C074220F14CB2008DC735 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6J7Z474QUR;
+				INFOPLIST_FILE = MyPintrestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rishstudio.MyPintrestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyPintrest;
+			};
+			name = Debug;
+		};
+		DB3C074320F14CB2008DC735 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6J7Z474QUR;
+				INFOPLIST_FILE = MyPintrestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rishstudio.MyPintrestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyPintrest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB3C070E20F14CAE008DC735 /* Build configuration list for PBXProject "MyPintrest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB3C073920F14CB2008DC735 /* Debug */,
+				DB3C073A20F14CB2008DC735 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB3C073B20F14CB2008DC735 /* Build configuration list for PBXNativeTarget "MyPintrest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB3C073C20F14CB2008DC735 /* Debug */,
+				DB3C073D20F14CB2008DC735 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB3C073E20F14CB2008DC735 /* Build configuration list for PBXNativeTarget "MyPintrestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB3C073F20F14CB2008DC735 /* Debug */,
+				DB3C074020F14CB2008DC735 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB3C074120F14CB2008DC735 /* Build configuration list for PBXNativeTarget "MyPintrestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB3C074220F14CB2008DC735 /* Debug */,
+				DB3C074320F14CB2008DC735 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB3C070B20F14CAE008DC735 /* Project object */;
+}
