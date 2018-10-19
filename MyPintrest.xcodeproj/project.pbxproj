@@ -14,6 +14,13 @@
 		DB3C072120F14CB1008DC735 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB3C071F20F14CB1008DC735 /* LaunchScreen.storyboard */; };
 		DB3C072C20F14CB2008DC735 /* MyPintrestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3C072B20F14CB2008DC735 /* MyPintrestTests.swift */; };
 		DB3C073720F14CB2008DC735 /* MyPintrestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3C073620F14CB2008DC735 /* MyPintrestUITests.swift */; };
+		DB3C074620F21080008DC735 /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3C074520F21080008DC735 /* PhotoCell.swift */; };
+		DB3C074820F21364008DC735 /* PinterestLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3C074720F21364008DC735 /* PinterestLayout.swift */; };
+		DB3C074B20F21516008DC735 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3C074A20F21516008DC735 /* APIClient.swift */; };
+		DB3C074D20F217B0008DC735 /* UnsplashImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3C074C20F217B0008DC735 /* UnsplashImages.swift */; };
+		DB3C074F20F2238D008DC735 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3C074E20F2238D008DC735 /* Endpoint.swift */; };
+		DB3C075120F2255A008DC735 /* UnsplashClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3C075020F2255A008DC735 /* UnsplashClient.swift */; };
+		DB3C075420F22799008DC735 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3C075320F22799008DC735 /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +54,13 @@
 		DB3C073220F14CB2008DC735 /* MyPintrestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyPintrestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB3C073620F14CB2008DC735 /* MyPintrestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPintrestUITests.swift; sourceTree = "<group>"; };
 		DB3C073820F14CB2008DC735 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB3C074520F21080008DC735 /* PhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
+		DB3C074720F21364008DC735 /* PinterestLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinterestLayout.swift; sourceTree = "<group>"; };
+		DB3C074A20F21516008DC735 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		DB3C074C20F217B0008DC735 /* UnsplashImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnsplashImages.swift; sourceTree = "<group>"; };
+		DB3C074E20F2238D008DC735 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		DB3C075020F2255A008DC735 /* UnsplashClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnsplashClient.swift; sourceTree = "<group>"; };
+		DB3C075320F22799008DC735 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +111,9 @@
 		DB3C071520F14CAE008DC735 /* MyPintrest */ = {
 			isa = PBXGroup;
 			children = (
+				DB3C075220F22785008DC735 /* ViewModels */,
+				DB3C074920F214FB008DC735 /* Networking */,
+				DB3C074420F21056008DC735 /* Views */,
 				DB3C071620F14CAE008DC735 /* AppDelegate.swift */,
 				DB3C071820F14CAE008DC735 /* ViewController.swift */,
 				DB3C071A20F14CAE008DC735 /* Main.storyboard */,
@@ -123,6 +140,34 @@
 				DB3C073820F14CB2008DC735 /* Info.plist */,
 			);
 			path = MyPintrestUITests;
+			sourceTree = "<group>";
+		};
+		DB3C074420F21056008DC735 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DB3C074520F21080008DC735 /* PhotoCell.swift */,
+				DB3C074720F21364008DC735 /* PinterestLayout.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DB3C074920F214FB008DC735 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				DB3C074A20F21516008DC735 /* APIClient.swift */,
+				DB3C074E20F2238D008DC735 /* Endpoint.swift */,
+				DB3C074C20F217B0008DC735 /* UnsplashImages.swift */,
+				DB3C075020F2255A008DC735 /* UnsplashClient.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		DB3C075220F22785008DC735 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				DB3C075320F22799008DC735 /* ViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,7 +301,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB3C074F20F2238D008DC735 /* Endpoint.swift in Sources */,
+				DB3C075420F22799008DC735 /* ViewModel.swift in Sources */,
 				DB3C071920F14CAE008DC735 /* ViewController.swift in Sources */,
+				DB3C074820F21364008DC735 /* PinterestLayout.swift in Sources */,
+				DB3C074620F21080008DC735 /* PhotoCell.swift in Sources */,
+				DB3C075120F2255A008DC735 /* UnsplashClient.swift in Sources */,
+				DB3C074D20F217B0008DC735 /* UnsplashImages.swift in Sources */,
+				DB3C074B20F21516008DC735 /* APIClient.swift in Sources */,
 				DB3C071720F14CAE008DC735 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -433,6 +485,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6J7Z474QUR;
 				INFOPLIST_FILE = MyPintrest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -451,6 +504,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6J7Z474QUR;
 				INFOPLIST_FILE = MyPintrest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
